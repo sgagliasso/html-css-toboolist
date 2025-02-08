@@ -12,12 +12,35 @@
 }
 
 body {
-    background-color: #d3d3d3da;
+    background-color: #e2e2e2f7;
 }
 .container{
-    background-color: white;
+    background-color: #ffffff;
     width: 80%;
     margin: 40px auto;
-    border: 1px  solid  black;
-    padding: 40PX;
+    border: 1px  solid  #dfdfdf;
+    
+}
+.menu{
+    border-bottom: 1px  solid  #dfdfdf;
+}
+
+.bottoni{
+    margin: 10px 0px 10px 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.addtask{
+    background-color: #20b2aa;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px  solid  #dfdfdf;
+}
+
+.addsection{
+    background-color: #fffdfd;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px  solid  #dfdfdf;
 }
