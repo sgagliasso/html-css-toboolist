@@ -44,3 +44,38 @@ body {
     padding: 5px;
     border: 1px  solid  #dfdfdf;
 }
+
+.todolist{
+    margin-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+.layoutlista > li::before{
+    content: "▾";
+    list-style-type: none;
+}
+
+.layoutlista > li{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.layoutlistaannidata > li::before{
+    content: "✔";
+    color: #9eff9e;
+    margin-left: 2px;
+}
+
+.layoutlistaannidata > li{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.editorial{
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 5px;
+    color: #ffffff;
+}
